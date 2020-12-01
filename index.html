@@ -1,9 +1,312 @@
+﻿<!DOCTYPE html>
 <html>
-<body>
-<div style='text-align: center;'>
-  Flooring Reapers
-  <br>
-  Future sight
+<head>
+    <title>Flooring Reapers</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="floorReaper.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Raleway", sans-serif
+        }
+        body {
+            background-image: url(img0.png);
+        }
+    </style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px;">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container" style="text-align: center;">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="img1.png" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Your All Pro
+        <br />
+        Flooring Removal
+        <br />
+        And Restoration Team</b></h4>
+    <p class="w3-text-grey">Insured & Bonded</p>
+  </div>
+  <div class="w3-bar-block">
+      <table style="margin: auto;">
+          <tr>
+              <td>
+                  <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+              </td>
+          </tr>
+      </table>
+  </div>
+  <div class="w3-panel w3-large" style="text-align: center;">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="img3.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+        <h1><b>Flooring Reapers</b></h1>
+        <p><b>Company Slogan</b></p>
+        <p>Why you want me.</p>
+        <div class="w3-section w3-bottombar w3-padding-16">
+            <button class="w3-button w3-white">Our Portfolio</button>
+            <button class="w3-button w3-white">About Us</button>
+            <button class="w3-button w3-white">Contact</button>
+        </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img_floor_1.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Residental</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img_floor_2.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Commercial</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img_floor_3.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Industrial</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img_floor_4.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Carpet</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img_floor_5.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Tile</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img_floor_6.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Wood</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black"><</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">></a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="img2.png" alt="Me" style="width:100%">
+    </div>
+    <div class="w3-col m6">
+      <img src="img3.png" alt="Me" style="width:100%">
+    </div>
+  </div>
+
+    <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+      <h4><b>About Me</b></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien nec sagittis aliquam malesuada bibendum. Sem viverra aliquet eget sit amet tellus cras adipiscing. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Magnis dis parturient montes nascetur ridiculus. Risus pretium quam vulputate dignissim suspendisse in est. Diam maecenas sed enim ut sem viverra aliquet eget. Egestas purus viverra accumsan in nisl. Quisque id diam vel quam elementum. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque. Dignissim cras tincidunt lobortis feugiat vivamus at augue. In metus vulputate eu scelerisque felis imperdiet. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Morbi tristique senectus et netus et malesuada fames ac turpis. Sit amet commodo nulla facilisi. Varius quam quisque id diam. Odio eu feugiat pretium nibh ipsum consequat nisl. Faucibus interdum posuere lorem ipsum dolor sit amet consectetur.</p>
+      <hr>
+
+      <h4><b>Removal</b></h4>
+      <p>Amet nisl suscipit adipiscing bibendum est ultricies. Ultrices vitae auctor eu augue ut. Sed tempus urna et pharetra pharetra. Eget sit amet tellus cras adipiscing enim eu turpis egestas. Tristique senectus et netus et malesuada fames ac turpis egestas. Nullam ac tortor vitae purus faucibus. Magnis dis parturient montes nascetur. Morbi tincidunt augue interdum velit euismod. Amet luctus venenatis lectus magna. Mi eget mauris pharetra et ultrices. Mauris a diam maecenas sed. Ipsum consequat nisl vel pretium. Malesuada bibendum arcu vitae elementum. Purus gravida quis blandit turpis cursus. Vitae justo eget magna fermentum iaculis eu non diam phasellus.</p>
+      <hr>
+
+      <h4><b>Instalation</b></h4>
+      <p>Eget nunc scelerisque viverra mauris in aliquam sem fringilla. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Sit amet nisl suscipit adipiscing bibendum est ultricies. Sed arcu non odio euismod lacinia. Sit amet risus nullam eget felis eget nunc lobortis mattis. Id volutpat lacus laoreet non curabitur gravida arcu ac. Morbi leo urna molestie at elementum eu facilisis. Dolor sit amet consectetur adipiscing. Viverra adipiscing at in tellus integer feugiat scelerisque varius. Donec massa sapien faucibus et molestie ac feugiat.</p>
+      <hr>
+
+      <h4><b>Restoration</b></h4>
+      <p>Neque viverra justo nec ultrices dui sapien eget mi. Lorem dolor sed viverra ipsum nunc. Nec feugiat nisl pretium fusce id velit ut. Et tortor consequat id porta nibh venenatis cras. Quam id leo in vitae turpis massa sed elementum. Eleifend mi in nulla posuere sollicitudin aliquam ultrices. In arcu cursus euismod quis viverra nibh cras. Imperdiet dui accumsan sit amet nulla. Placerat in egestas erat imperdiet sed euismod nisi porta lorem. Rhoncus mattis rhoncus urna neque viverra justo. Quam pellentesque nec nam aliquam sem et. Volutpat blandit aliquam etiam erat velit. Habitant morbi tristique senectus et netus. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Ut consequat semper viverra nam libero justo laoreet.</p>
+
+    </div>
+
+    <div class="w3-center w3-padding-32">
+
+        <h4>Project Estamates</h4>
+        <!-- Pricing Tables -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom">
+                <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                    <li class="w3-black w3-xlarge w3-padding-32">Removal</li>
+                    <li class="w3-padding-16">Pictures at each step</li>
+                    <li class="w3-padding-16">Dust Retarding</li>
+                    <li class="w3-padding-16">C4</li>
+                    <li class="w3-padding-16">Disposal</li>
+                    <li class="w3-padding-16">
+                        <h2>$ 10</h2>
+                        <span class="w3-opacity">per square mile</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-teal w3-padding-large w3-hover-black">More Information</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="w3-third w3-margin-bottom">
+                <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                    <li class="w3-teal w3-xlarge w3-padding-32">Restoration</li>
+                    <li class="w3-padding-16">Pictures at each step</li>
+                    <li class="w3-padding-16">Empty room</li>
+                    <li class="w3-padding-16">Slave labor</li>
+                    <li class="w3-padding-16">Endless complaining</li>
+                    <li class="w3-padding-16">
+                        <h2>$ 25</h2>
+                        <span class="w3-opacity">per minute</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-teal w3-padding-large w3-hover-black">More Information</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="w3-third">
+                <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                    <li class="w3-black w3-xlarge w3-padding-32">Installation</li>
+                    <li class="w3-padding-16">Pictures at each step</li>
+                    <li class="w3-padding-16">Beer</li>
+                    <li class="w3-padding-16">Pizza</li>
+                    <li class="w3-padding-16">PS2</li>
+                    <li class="w3-padding-16">
+                        <h2>$ 5</h2>
+                        <span class="w3-opacity">One time charge</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-teal w3-padding-large w3-hover-black">More Information</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>mossyoak64@outlook.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Florida, US</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>555.555.5555</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+        <h3>Customer Accolades</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Powered by awesome dudeness</p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>Locations Served</h3>
+      <ul class="w3-ul w3-hoverable">
+          <li class="w3-padding-16">
+              <span class="w3-large">NORWAY</span> - <span>Sed mattis nunc</span>
+          </li>
+          <li class="w3-padding-16">
+              <span class="w3-large">New York</span> - <span>Praes tinci sed</span>
+          </li>
+          <li class="w3-padding-16">
+              <span class="w3-large">London</span> - <span>Sed vitae justo</span>
+          </li>
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>What we do</h3>
+      <p>
+          <span class="w3-tag w3-grey w3-small w3-margin-bottom">Tile</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DUI</span>
+          <span class="w3-tag w3-grey w3-small w3-margin-bottom">Wood</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Beer</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Flooring</span>
+          <span class="w3-tag w3-grey w3-small w3-margin-bottom">Carpet</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Camping</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Pizza</span>
+          <span class="w3-tag w3-grey w3-small w3-margin-bottom">Hunting</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ps2 Games</span>
+          <span class="w3-tag w3-grey w3-small w3-margin-bottom">Praesent</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Tincidunt</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sed tellus</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+<!-- End page content -->
 </div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
 </body>
-<html>
+</html>
